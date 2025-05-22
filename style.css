@@ -1,0 +1,22 @@
+body {
+  margin: 0;
+  background-color: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  position: relative;
+}
+
+canvas {
+  border: 1px solid #fff;
+}
+
+#text-overlay {
+  position: absolute;
+  color: white;
+  font-size: 2rem;
+  font-weight: bold;
+  text-shadow: 0 0 10px pink, 0 0 20px red;
+  pointer-events: none;
+}
